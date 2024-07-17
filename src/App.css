@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  padding: 30px;
 }
 
 .App-logo {
@@ -35,4 +36,73 @@
   to {
     transform: rotate(360deg);
   }
+}
+.buttonContainer {
+  margin: auto;
+  padding: 30px;
+}
+.container {
+  margin: auto;
+  padding: 30px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: lavender;
+  border-radius: 25px;
+}
+.formContainer {
+  padding: 20px;
+  height: 200px;
+}
+
+.fillButton {
+  background-color: lightsalmon;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 2px;
+}
+.submitButton {
+  background-color: lightgrey;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 2px;
+}
+.formBox {
+  float: left;
+  width: 50%;
+
+}
+.responseContainer {
+  margin: 10px;
+}
+.column {
+  float: left;
+  width: 31%;
+  overflow-wrap: break-word;
+  margin: 1px;
+  border-radius: 25px;
+}
+
+.columnNID {
+  background-color: yellowgreen;
+  padding: 5px;
+}
+
+.columnSocure {
+  background-color: lightblue;
+  padding: 5px; 
+}
+
+.columnIovation {
+  background-color: lightpink;
+  padding: 5px;
 }
