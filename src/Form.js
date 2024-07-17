@@ -3,14 +3,10 @@ import alloy from '@alloyidentity/web-sdk';
 import './Form.css';
 
 const alloyInitParams = {
-    "key": "c76e2459-6772-4de5-9a23-8628710ce802",
-    "journeyToken": "J-KqMDE7j3Va3sD20w7oTD",
-    "journeyApplicationToken": "JA-vAabsmvoEgiDfhV0z2El",
-    // "entityToken": "P-XMbZH22GMhJf2cqW2bnd",
-    // "production": false,
-    // "isSingleEntity": true,
-    // "externalEntityId": "c2bf0945-3142-4f16-92e9-0e7c0dca856a",
-    "color": {
+    "key": "",
+    "journeyToken": "",
+    "journeyApplicationToken": "",
+     "color": {
         "primary": "#CD7D2D",
         "secondary": "#862633"
     },
