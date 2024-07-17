@@ -20,9 +20,9 @@ function App() {
   const [email, setEmail] = useState('');
 
   const alloyInitParams = {
-    "key": "0a24377a-3698-476d-9cee-925909121848",
-    "journeyToken": "J-voGgqd9zLdiI9nhX1mCX",
-    "socurePublicToken": "49b2a770-0540-400b-a7a7-4da404445270",
+    "key": "",
+    "journeyToken": "",
+    "socurePublicToken": "",
     "color": {
       "primary": "#CD7D2D",
       "secondary": "#862633"
@@ -49,16 +49,16 @@ function App() {
   const startApp = () => {
     // Start app functionality
     setNameFirst('Tina');
-  setNameLast('Marie');
-  setDOB('1990-09-09');
-  setAddressStreet('123 A Street');
-  setAddressCity('Brooklyn');
-  setAddressState('NY');
-  setAddressCountry('US');
-  setAddressPostalCode('11111');
-  setPhone('+18828888888');
-  setSSN('888888888');
-  setEmail('tina.marie@gmail.com');
+    setNameLast('Marie');
+    setDOB('1990-09-09');
+    setAddressStreet('123 A Street');
+    setAddressCity('Brooklyn');
+    setAddressState('NY');
+    setAddressCountry('US');
+    setAddressPostalCode('11111');
+    setPhone('+18828888888');
+    setSSN('888888888');
+    setEmail('tina.marie@gmail.com');
     console.log('App Started');
   }
 
