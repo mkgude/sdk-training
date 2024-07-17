@@ -2,6 +2,17 @@ import React, { useState, useEffect } from 'react';
 import alloy from '@alloyidentity/web-sdk';
 import './App.css';
 
+// Activate when look at docV SDK
+// import App from './Form.js';
+
+// const AnotherComponent = () => {
+//   return (
+//     <App/>
+//   );
+// };
+// export default AnotherComponent;
+
+// dactivate when looking at DocV SDK components
 function App() {
   const [nidSiteId, setNidSiteId] = useState('');
   const [nidUserId, setNidUserId] = useState('');

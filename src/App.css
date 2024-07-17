@@ -55,7 +55,7 @@
 }
 
 .fillButton {
-  background-color: lightsalmon;
+  background-image: linear-gradient(lightsalmon, lightpink);
   border: none;
   color: white;
   padding: 15px 32px;
@@ -63,10 +63,10 @@
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  border-radius: 2px;
+  border-radius: 5px;
 }
 .submitButton {
-  background-color: lightgrey;
+  background-image: linear-gradient(lightblue, lavender);
   border: none;
   color: white;
   padding: 15px 32px;
@@ -74,7 +74,13 @@
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  border-radius: 2px;
+  border-radius: 5px;
+}
+.fillButton:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.submitButton:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }
 .formBox {
   float: left;
